@@ -3,11 +3,10 @@
 #k8s.gcr.io/kube-state-metrics/#kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 k8s.gcr.io/conformance:v1.30.2
---platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.30.2
---platform=linux/arm64 k8s.gcr.io/kube-scheduler:v1.30.2
---platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.30.2
---platform=linux/arm64 k8s.gcr.io/kubectl:v1.30.2
---platform=linux/arm64 k8s.gcr.io/pause:3.6
---platform=linux/arm64 k8s.gcr.io/etcd
+#--platform=linux/arm64 k8s.gcr.io/conformance:v1.30.2
+#--platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.30.2
+#--platform=linux/arm64 k8s.gcr.io/kube-scheduler:v1.30.2
+#--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.30.2
+#--platform=linux/arm64 k8s.gcr.io/kubectl:v1.30.2
+#--platform=linux/arm64 k8s.gcr.io/pause:3.6
 --platform=linux/arm64 docker/desktop-kubernetes:kubernetes-v1.30.2-cni-v1.4.0-critools-v1.29.0-cri-dockerd-v0.3.11-1-debian
