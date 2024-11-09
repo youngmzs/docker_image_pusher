@@ -15,5 +15,5 @@
 #--platform=linux/arm64 nigelpoulton/k8sbook:1.0
 #--platform=linux/arm64 registry.k8s.io/pause:3.9
 #--platform=linux/arm64 docker/desktop-storage-provisioner:v2.0
---platform=linux/arm64 kubernetesui/dashboard:latest
---platform=linux/arm64 kubernetesui/metrics-scraper:latest
+--platform=linux/arm64 kubernetesui/dashboard:v2.7.0
+--platform=linux/arm64 kubernetesui/metrics-scraper:v1.0.8
