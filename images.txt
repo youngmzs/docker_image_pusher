@@ -17,5 +17,5 @@
 #--platform=linux/arm64 docker/desktop-storage-provisioner:v2.0
 #--platform=linux/arm64 kubernetesui/dashboard:v2.7.0
 #--platform=linux/arm64 kubernetesui/metrics-scraper:v1.0.8
-#--platform=linux/arm64/v8 redis:6.0.0
---platform=linux/arm64/v8 openjdk:17.0.2
+--platform=linux/amd64 redis:6.0.0
+#--platform=linux/x86 openjdk:17.0.2
