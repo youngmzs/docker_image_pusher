@@ -19,5 +19,6 @@
 #--platform=linux/arm64 kubernetesui/metrics-scraper:v1.0.8
 #--platform=linux/amd64 redis:6.0.0
 #--platform=linux/x86 openjdk:17.0.2
---platform=linux/arm64/v8 flink:2.0
---platform=linux/arm64 apache/seatunnel:2.3.8
+#--platform=linux/arm64/v8 flink:2.0
+#--platform=linux/arm64 apache/seatunnel:2.3
+--platform=linux/arm64/v8 flink:1.20.0-java17
