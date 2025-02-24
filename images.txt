@@ -22,4 +22,5 @@
 #--platform=linux/arm64/v8 flink:2.0
 #--platform=linux/arm64 apache/seatunnel:2.3
 #--platform=linux/arm64/v8 flink:1.20.0-java17
---platform=linux/arm64 apache/kafka:3.9.0
+#--platform=linux/arm64 apache/kafka:3.9
+--platform=linux/arm64/v8 elasticsearch:8.17.2
